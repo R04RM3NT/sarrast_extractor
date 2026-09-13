@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Example Series | Sarrast</title>
+  <meta name="description" content="A gripping sci-fi drama about the future.">
+</head>
+<body>
+  <main class="container mx-auto px-4">
+    <section id="series-hero">
+      <div class="flex flex-col md:flex-row gap-6">
+        <div class="series-poster shrink-0">
+          <img src="/public/img/series/example-series/thumb.webp" alt="Example Series" width="260" height="360">
+        </div>
+        <div class="series-info flex-1">
+          <h1 class="text-3xl font-bold text-white">Example Series</h1>
+          <p class="text-sm text-gray-400">Genre: Science Fiction</p>
+          <div class="series-meta flex flex-wrap gap-3 mt-2 text-sm">
+            <span class="series-rating">★ 8.4</span>
+            <span class="series-status">Ongoing</span>
+            <span class="series-count">48 episodes</span>
+          </div>
+          <p class="series-description mt-3 text-sm text-gray-300 leading-relaxed">
+            A gripping sci-fi drama about the future.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="episodes" class="mt-8">
+      <div class=" text-white mb-20 mt-8 relative px-4" x-data="{showEpisode:false}">
+        <div class="episode-card p-3">
+          <a href="/go?v=abc&s=episode-1" class="episode-link">
+            <img class="episode-thumb" src="/public/img/series/example-series/episode-1/thumb.webp">
+            <span class="episode-name">Episode 1</span>
+          </a>
+        </div>
+        <div class="episode-card p-3">
+          <a href="/go?v=def&s=episode-2" class="episode-link">
+            <img class="episode-thumb" src="/public/img/series/example-series/episode-2/thumb.webp">
+            <span class="episode-name">Episode 2</span>
+          </a>
+        </div>
+        <div class="episode-card p-3">
+          <a href="/go?v=ghi&s=episode-3" class="episode-link">
+            <img class="episode-thumb" src="/public/img/series/example-series/episode-3/thumb.webp">
+            <span class="episode-name">Episode 3</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
