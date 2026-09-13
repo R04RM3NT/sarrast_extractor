@@ -65,7 +65,7 @@ export default function Layout() {
       </main>
 
       <footer className="relative z-10 border-t border-edge/50 py-8 text-center text-xs text-ink-faint">
-        Sarrast Extractor · created by <a href="https://github.com/R04RM3NT" className="hover:text-white transition-all duration-300">R04RM3NT</a> With ❤️, Golang and react
+        Sarrast Extractor · Created by <a href="https://github.com/R04RM3NT" className="hover:text-white transition-all duration-300">R04RM3NT</a>  **R04RM3NT** — built with ❤️, Go, and React. 
       </footer>
     </div>
   );
